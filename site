@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce de Leite</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f0e3;
+            color: #4b3d35;
+        }
+        .container {
+            max-width: 50%;
+            margin: auto;
+        }
+        header, footer {
+            background-color: #8b5a2b;
+            color: #ffffff;
+            text-align: center;
+        }
+        nav .nav-link {
+            color: #ffffff;
+        }
+        nav .nav-link:hover {
+            color: #d6b35b;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            text-align: justify;
+            margin: 0 20px;
+        }
+        .navbar {
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="py-4">
+        <h1>Doce de Leite</h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">História</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#receitas">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#curiosidades">Curiosidades</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="historia" class="mb-4">
+            <h2>História do Doce de Leite</h2>
+            <p>O doce de leite é um produto tradicional na América Latina, originário do século XIX. Sua preparação envolve a fervura do leite com açúcar, resultando em uma textura cremosa e sabor doce.</p>
+            <p>Historicamente, o doce de leite foi criado acidentalmente, quando um cozinheiro esqueceu de mexer uma panela de leite e açúcar. Com o tempo, se tornou um ingrediente essencial em muitas sobremesas e é apreciado em diversas culturas.</p>
+        </section>
+
+        <section id="receitas" class="mb-4">
+            <h2>Receitas de Doce de Leite</h2>
+            <p>Existem diversas receitas para fazer doce de leite, variando entre o uso de leite condensado, leite fresco e até mesmo o uso de leite de cabra. Cada região tem sua particularidade na preparação.</p>
+            <p>Uma receita clássica é feita cozinhando lentamente o leite com açúcar e bicarbonato de sódio, mexendo até atingir a consistência desejada. Algumas pessoas também adicionam essência de baunilha ou chocolate para dar um toque especial.</p>
+        </section>
+
+        <section id="curiosidades" class="mb-4">
+            <h2>Curiosidades</h2>
+            <p>O doce de leite é um dos ingredientes principais de várias sobremesas e é muito apreciado em países como Argentina, Brasil e México. Além disso, há até festivais dedicados a essa delícia!</p>
+            <p>Curiosamente, a Argentina tem uma versão famosa chamada "dulce de leche" que é tão popular que existe até uma marca de chocolate que é feita com doce de leite. Essa iguaria é frequentemente utilizada em tortas, bolos e sorvetes.</p>
+        </section>
+    </main>
+
+    <footer class="py-4">
+        <p>&copy; 2024 Doce de Lucca. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
